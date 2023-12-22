@@ -1,0 +1,19 @@
+
+
+ion-col {
+    
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  @media (min-width: 576px) {
+
+    ion-col:first-child {
+      order: 2; 
+    }
+  
+    ion-col:last-child {
+      order: 1; 
+    }
+  }
+  

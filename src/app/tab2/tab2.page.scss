@@ -1,0 +1,22 @@
+
+
+ion-col {
+    
+    background-color: #c0c0c0;
+    padding: 10px;
+  }
+  
+  @media (min-width: 576px) {
+    
+    ion-col {
+      flex: 0 0 50%; 
+    }
+  }
+  
+  @media (min-width: 768px) {
+    
+    ion-col {
+      flex: 0 0 33.33%; 
+    }
+  }
+  
